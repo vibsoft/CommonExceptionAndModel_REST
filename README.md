@@ -81,9 +81,9 @@ Response Body:
 
 How to run tests:
 
-From command line, will run test to have predefined output in logs - mvn clean install
-From IDE (IDEA) - run /test/RestControllerTests.testExchangeMachine_Scenario_1() test
-from Postman - run APIs in Postman
+1. From command line, will run test to have predefined output in logs - mvn clean install
+2. From IDE (IDEA) - run /test/RestControllerTests.testExchangeMachine_Scenario_1() test
+3. From Postman - run APIs in Postman
 
 ```
 public class RestControllerAdviceTests {
@@ -140,3 +140,4 @@ public class RestControllerAdviceTests {
             .andExpect(status().isOk());
   }
 }
+```
